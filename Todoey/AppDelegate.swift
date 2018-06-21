@@ -41,6 +41,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         print("applicationWillTerminate")
     }
     
+//    func saveContext (){
+//        let context = persistentContainer.viewContext
+//        if context.hasChanges{
+//            do{
+//                context.save()
+//            }catch{
+//                let nserror = error as NSError
+//                fatalError("unsolve error\(nserror), \(nserror.userInfo)")
+//            }
+//        }
+//    }
     
 }
 
